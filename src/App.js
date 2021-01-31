@@ -5,10 +5,11 @@ function App() {
   return (    
       <Router>
         <div className="App">
-          <Route path="/login">Login</Route>
-          <Route path="/logout">Logout</Route>
-          <Route path="/header">Header</Route>
-          
+          <Switch>
+            <Route path="/login">Login</Route>
+            <Route path="/logout">Logout</Route>
+            <Route path="/header">Header</Route>
+          </Switch>
         </div>
       </Router>    
   );
