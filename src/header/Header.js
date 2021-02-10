@@ -34,11 +34,7 @@ function Header() {
                 </Link>
                 <Link to="checkout" className="header__link">
                     <div className="header__optionBasket">
-                        <ShoppingCart/>
-                        <span className="header__lineTwo header__basketCount">
-                            {console.log("cart", cart)}
-                            {cart?.length}
-                        </span>
+                        <ShoppingCart/>                                                
                     </div>
                 </Link>
             </div>

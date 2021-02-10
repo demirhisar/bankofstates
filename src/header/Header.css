@@ -65,7 +65,6 @@
 }
 
 .header__optionBasket {
-}
-
-.header__basketCount {
+  font-size: 15px;
+  font-weight: bold;
 }
