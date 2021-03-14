@@ -42,8 +42,14 @@ function Banner () {
     return (
         <Carousel activeIndex = {activeIndex} next = {next} previous = {previous}>
             {slides}
-            <CarouselControl direction = "prev" directionText = "Previous" onClickHandler = {previous} />
-            <CarouselControl direction = "next" directionText = "Next" onClickHandler = {next} />
+            <CarouselControl
+                direction = "prev"
+                directionText = "Previous"
+                onClickHandler = {previous} />
+            <CarouselControl
+                direction = "next"
+                directionText = "Next"
+                onClickHandler = {next} />
         </Carousel>
     );
 };

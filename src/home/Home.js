@@ -6,6 +6,7 @@ import silver from "../images/card/silver.jpg";
 import gold from "../images/card/gold.jpg";
 import platinum from "../images/card/platinum.jpg";
 import Product from "../product/Product";
+import Price from "../price/Price";
 import "./Home.css";
 
 function Home() {
@@ -34,8 +35,9 @@ function Home() {
                     type="Platinum Card"
                     price={800}
                     image={platinum}
-                />
+                />                  
             </div>
+            <Price/>
         </div>
     );
 }
